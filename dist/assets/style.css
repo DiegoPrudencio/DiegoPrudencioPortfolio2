@@ -1,0 +1,125 @@
+/* LIGHT MODE AND PRINCIPAL HTML */
+
+html {
+
+    /* cores de texto */
+    --text-title: #42446E;
+    --color-content: #666666;
+
+    /* cores de fundo */
+    --background-theme: #F5F5F5;
+    --background-box: #FFFFFF;
+
+    --bg-indigo: #6366f1;
+    --bg-grey-light: #f5f5f5;
+
+    background-color: #F5F5F5;
+    margin: 10px 130px 10px 130px;
+    padding: 0%;
+    border: 0%;
+}
+
+/* DARK MODE */
+.dark {
+    /* cores de texto */
+    --text-title: #D9D9D9;
+    --color-content: #A7A7A7;
+
+    /* cores de fundo */
+    --background-theme: #191919;
+    --background-box: #363636;
+}
+
+/* FIXED TITLE COLORS */
+
+.colorTitle1 {
+    color: var(--color-content)
+}
+
+.colorTitle2 {
+    color: var(--text-title);
+}
+
+.textTitle {
+    color: var(--color-content);
+}
+
+.fontSize1 {
+    font-size: 48px;
+}
+
+.fontSize2 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.fontSize3 {
+    font-size: 28px;
+}
+
+.divMae {
+    display: flex;
+    width: 100%;
+}
+
+/* MENU BAR */
+
+.divMenuLogo {
+    margin: 0px 450px 0px 0px;
+}
+
+.divPage {
+    margin: 8px 10px 0px 0px;
+}
+
+.imagePage {
+    width: 28px;
+}
+
+.divMenuOpition {
+    margin: 0px 30px 0px 10px;
+}
+
+/* Presentation */
+
+.presentation {
+    margin: 0%;
+}
+
+.divHello {
+    margin: 180px 0px 0px 0px;
+}
+
+.imageHello {
+    width: 50px;
+}
+
+.name {
+    background-image: linear-gradient(to bottom, #E70FAA, #00C0FD);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+.profilePhoto {
+    margin: 150px 0px 0px 270px;
+    width: 300px;
+    background: linear-gradient(white, white) padding-box,
+                /* linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet) border-box; */
+                linear-gradient(to bottom right, #E70FAA, #00C0FD) border-box;
+    border-radius: 50em;
+    border: 6px solid transparent;
+
+}
+
+/* Tech field */
+
+.divTitle3 {
+    margin-top: 200px;
+    text-align: center;
+}
+
+.divTitle4 {
+    text-align: center;
+}
