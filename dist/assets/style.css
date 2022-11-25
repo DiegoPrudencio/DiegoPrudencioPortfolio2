@@ -30,7 +30,7 @@ html {
     --background-box: #363636;
 }
 
-/* FIXED TITLE COLORS */
+/* FIXED CLASS */
 
 .colorTitle1 {
     color: var(--color-content)
@@ -60,6 +60,17 @@ html {
 .divMae {
     display: flex;
     width: 100%;
+}
+
+.container {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+    text-align: center;
+}
+
+.teste {
+    width: 30%;
 }
 
 /* MENU BAR */
