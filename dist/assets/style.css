@@ -174,24 +174,34 @@ html {
 /* FOOTER FIELD */
 
 .divFooter {
+    display: flex;
+    justify-content: flex-end;
     margin-top: 100px;
-}
-
-.divFooterLogo {
-    width: 50px;
-    text-align: start;
-}
-
-.divFooterOption {
-    text-align: end;
-    margin: 10px;
+    margin-bottom: 15px;
 }
 
 .divFooterOption2 {
-    margin: 10px;
+    margin-right: 30px;
 }
 
 .marginIcon {
-    margin-top: 20px;
-    width: 100%;
+    margin-left: 20px;
+}
+
+.line {
+    color: var(--color-content);
+    margin: 0%;
+    font-weight: bold;
+}
+
+.menuFooter {
+    margin-top: 30px;
+}
+
+.divMenuOpitionFooter {
+    margin-right: 40px;
+}
+
+.divFooterLogo {
+    text-align: end;
 }
